@@ -1,0 +1,87 @@
+﻿<Page x:Class="SiReMu.MisListasReproduccion"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SiReMu"
+      mc:Ignorable="d" 
+      xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Background="{DynamicResource MaterialDesignPaper}"
+      TextElement.FontSize="20"
+      TextElement.FontWeight="Medium"
+      FontFamily="{materialDesign:MaterialDesignFont}"
+      d:DesignHeight="600" d:DesignWidth="1100"
+      Title="Mis lista de reproducción">
+
+    <Grid>
+        <Label Content="Mis playlist" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="48" Padding="0"/>
+        <Button HorizontalAlignment="Left" Margin="322,130,0,0" VerticalAlignment="Top" Content="Nueva playlist" Background="DarkViolet" 
+                Foreground="White" Click="CrearLista" FontSize="16" Width="150" Height="40"/>
+        <Label Content="Mis listas creadas" HorizontalAlignment="Left" Margin="30,180,0,0" VerticalAlignment="Top" Padding="0"/>
+        <DataGrid x:Name="dgMisListas" HorizontalAlignment="Left" Margin="30,210,0,30" VerticalAlignment="Top" AutoGenerateColumns="False"
+                  CanUserAddRows="False" IsReadOnly="True" SelectionMode="Single" MouseRightButtonUp="VerMenuClickDerecho" MouseLeftButtonUp="VerLista">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn CellStyle="{StaticResource NoPadding}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Tag="{Binding}" Padding="0" Width="25" Height="25" Click="ReproducirMiLista" Style="{StaticResource MouseOverVisibility}">
+                                <materialDesign:PackIcon Kind="Play" Width="25" Height="25" Foreground="White"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Nombre" MinWidth="200" Width="250" CanUserReorder="False" Binding="{Binding Nombre}" CellStyle="{StaticResource NoFocus}"/>
+                <DataGridCheckBoxColumn Header="Pública" MinWidth="80" Width="80" CanUserReorder="False" Binding="{Binding EsPublica}" CellStyle="{StaticResource NoFocus}"
+                                        ElementStyle="{StaticResource MaterialDesignDataGridCheckBoxColumnStyle}" 
+                                        EditingElementStyle="{StaticResource MaterialDesignDataGridCheckBoxColumnEditingStyle}"/>
+                <DataGridTextColumn Header="Likes" MinWidth="80" Width="80" CanUserReorder="False" Binding="{Binding Likes}" CellStyle="{StaticResource NoFocus}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Label Content="Listas que me gustan" HorizontalAlignment="Left" Margin="520,180,0,0" VerticalAlignment="Top" Padding="0"/>
+        <DataGrid x:Name="dgListasAgregadas" HorizontalAlignment="Left" Margin="520,210,0,30" VerticalAlignment="Top" AutoGenerateColumns="False"
+                  CanUserAddRows="False" IsReadOnly="True" SelectionMode="Single" MouseRightButtonUp="VerMenuClickDerecho" MouseLeftButtonUp="VerLista">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn CellStyle="{StaticResource NoPadding}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Tag="{Binding}" Padding="0" Width="25" Height="25" Click="ReproducirLista" Style="{StaticResource MouseOverVisibility}">
+                                <materialDesign:PackIcon Kind="Play" Width="25" Height="25" Foreground="White"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Nombre" MinWidth="200" Width="250" CanUserReorder="False" Binding="{Binding Nombre}" CellStyle="{StaticResource NoFocus}"/>
+                <DataGridTextColumn Header="Creador" MinWidth="100" Width="150" CanUserReorder="False" Binding="{Binding NombreCreador}" CellStyle="{StaticResource NoFocus}"/>
+                <DataGridTextColumn Header="Likes" MinWidth="80" Width="80" CanUserReorder="False" Binding="{Binding Likes}" CellStyle="{StaticResource NoFocus}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+
+    <Page.Resources>
+        <ContextMenu x:Key="cmMenuMisListas">
+            <MenuItem Header="Editar" Click="EditarLista">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="Edit" Foreground="White"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <Separator />
+            <MenuItem Header="Eliminar" Click="EliminarLista">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="Delete" Foreground="White" />
+                </MenuItem.Icon>
+            </MenuItem>
+        </ContextMenu>
+        
+        <ContextMenu x:Key="cmMenuListasAgregadas">
+            <MenuItem Header="Ya no me gusta" Click="EliminarListaAgregada">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="HeartBroken" Foreground="White" />
+                </MenuItem.Icon>
+            </MenuItem>
+            <Separator />
+        </ContextMenu>
+    </Page.Resources>
+</Page>

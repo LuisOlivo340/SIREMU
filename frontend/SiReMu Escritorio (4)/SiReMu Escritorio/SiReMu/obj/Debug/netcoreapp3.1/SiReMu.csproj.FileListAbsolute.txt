@@ -1,0 +1,149 @@
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.csprojAssemblyReference.cache
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\CambiarContraseña.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\ColaDeReproduccion.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisAlbumes.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisListasReproduccion.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\ModificarCuenta.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\Principal.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\RegistrarAlbum.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\RegistrarLista.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\Registrarse.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SubirCancion.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VentanaBusqueda.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VerAlbum.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VerListaReproduccion.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu_MarkupCompile.cache
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu_MarkupCompile.lref
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.exe
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.deps.json
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.runtimeconfig.json
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.runtimeconfig.dev.json
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.pdb
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Grpc.Core.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\NAudio.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x64.so
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x86.so
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x64.dylib
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x86.dylib
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x64.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x86.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Biblioteca gRPC.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Biblioteca gRPC.pdb
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\CambiarContraseña.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\ColaDeReproduccion.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisAlbumes.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisListasReproduccion.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\ModificarCuenta.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\Principal.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\RegistrarAlbum.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\RegistrarLista.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\Registrarse.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SubirCancion.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VentanaBusqueda.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VerAlbum.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VerListaReproduccion.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.g.resources
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.AssemblyInfoInputs.cache
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.AssemblyInfo.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.csproj.CopyComplete
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.pdb
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\EstacionRadio.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\EstacionRadio.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\TagLibSharp.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MusicaDescargada.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MusicaDescargada.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisCanciones.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisCanciones.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SubirCancionesPersonales.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SubirCancionesPersonales.baml
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MiMusicaPersonal.g.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MiMusicaPersonal.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.exe
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.deps.json
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.runtimeconfig.json
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.runtimeconfig.dev.json
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\SiReMu.pdb
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Grpc.Core.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\NAudio.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\TagLibSharp.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x64.so
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x86.so
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x64.dylib
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x86.dylib
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x64.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x86.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Biblioteca gRPC.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\bin\Debug\netcoreapp3.1\Biblioteca gRPC.pdb
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.csprojAssemblyReference.cache
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\CambiarContraseña.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\ColaDeReproduccion.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\EstacionRadio.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MiMusicaPersonal.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisAlbumes.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisCanciones.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisListasReproduccion.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\ModificarCuenta.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MusicaDescargada.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\Principal.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\RegistrarAlbum.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\RegistrarLista.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\Registrarse.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SubirCancion.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SubirCancionesPersonales.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VentanaBusqueda.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VerAlbum.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VerListaReproduccion.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu_MarkupCompile.cache
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu_MarkupCompile.lref
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\CambiarContraseña.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\ColaDeReproduccion.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\EstacionRadio.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MiMusicaPersonal.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisAlbumes.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisCanciones.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MisListasReproduccion.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\ModificarCuenta.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MusicaDescargada.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\Principal.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\RegistrarAlbum.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\RegistrarLista.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\Registrarse.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SubirCancion.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SubirCancionesPersonales.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VentanaBusqueda.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VerAlbum.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\VerListaReproduccion.baml
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.g.resources
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.AssemblyInfoInputs.cache
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.AssemblyInfo.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.csproj.CopyComplete
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.pdb
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\SiReMu.genruntimeconfig.cache
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MenuInicio.g.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu\obj\Debug\netcoreapp3.1\MenuInicio.baml

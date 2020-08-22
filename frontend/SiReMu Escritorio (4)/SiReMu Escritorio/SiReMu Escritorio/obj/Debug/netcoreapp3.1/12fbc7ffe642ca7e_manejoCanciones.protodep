@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/ManejoCanciones.cs \
+obj\Debug\netcoreapp3.1/ManejoCancionesGrpc.cs: Protos/manejoCanciones.proto

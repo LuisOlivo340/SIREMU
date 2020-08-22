@@ -1,0 +1,34 @@
+﻿<Application x:Class="SiReMu.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SiReMu"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:CustomColorTheme BaseTheme="Dark" PrimaryColor="#00b6ff" SecondaryColor="Blue" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <Style BasedOn="{StaticResource {x:Type DataGridCell}}" x:Key="NoFocus" TargetType="DataGridCell">
+                <Setter Property="Focusable" Value="False"/>
+            </Style>
+            <Style BasedOn="{StaticResource {x:Type DataGridCell}}" x:Key="NoPadding" TargetType="DataGridCell">
+                <Setter Property="Focusable" Value="False"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+            <Style BasedOn="{StaticResource {x:Type Button}}" x:Key="MouseOverVisibility" TargetType="Button">
+                <Setter Property="Button.Visibility" Value="Hidden"/>
+                <Setter Property="BorderBrush" Value="Transparent"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Background" Value="Transparent"/>
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGridRow}}, Path=IsMouseOver}" Value="True">
+                        <Setter Property="Button.Visibility" Value="Visible"/>
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+

@@ -1,0 +1,57 @@
+﻿<Page x:Class="SiReMu.MusicaDescargada"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SiReMu"
+      mc:Ignorable="d" 
+      xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Background="{DynamicResource MaterialDesignPaper}"
+      TextElement.FontSize="20"
+      TextElement.FontWeight="Medium"
+      FontFamily="{materialDesign:MaterialDesignFont}"
+      d:DesignHeight="600" d:DesignWidth="1100"
+      Title="Musica descargada">
+
+    <Grid>
+        <Label Content="Música descargada" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="48" Padding="0"/>
+        <Button x:Name="btReproducir" HorizontalAlignment="Left" Margin="100,130,0,0" VerticalAlignment="Top" Content="Reproducir" Background="DarkViolet" 
+                Foreground="White" Click="ReproducirMusica" FontSize="20" Width="150" Height="40"/>
+        <DataGrid x:Name="dgCanciones" HorizontalAlignment="Center" Margin="0,190,0,30" VerticalAlignment="Top" AutoGenerateColumns="False"
+                  CanUserAddRows="False" IsReadOnly="True" SelectionMode="Extended" MouseRightButtonUp="VerMenuClickDerecho">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn CellStyle="{StaticResource NoPadding}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Tag="{Binding}" Padding="0" Width="25" Height="25" Click="ReproducirCancion" Style="{StaticResource MouseOverVisibility}">
+                                <materialDesign:PackIcon Kind="Play" Width="25" Height="25" Foreground="White"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Título" MinWidth="200" Width="250" CanUserReorder="False" Binding="{Binding Nombre}" CellStyle="{StaticResource NoFocus}"/>
+                <DataGridTextColumn Header="Artísta" MinWidth="150" Width="200" CanUserReorder="False" Binding="{Binding Artista}" CellStyle="{StaticResource NoFocus}"/>
+                <DataGridTextColumn Header="Álbum" MinWidth="150" Width="200" CanUserReorder="False" Binding="{Binding Album.Nombre}" CellStyle="{StaticResource NoFocus}"/>
+                <DataGridTextColumn Header="Género" MinWidth="100" Width="150" CanUserReorder="False" Binding="{Binding Genero}" CellStyle="{StaticResource NoFocus}"/>
+                <DataGridTextColumn Header="Duración" MinWidth="70" Width="80" CanUserReorder="False" Binding="{Binding Duracion}" CellStyle="{StaticResource NoFocus}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+
+    <Page.Resources>
+        <ContextMenu x:Key="cmClickDerecho">
+            <MenuItem Header="Agregar a la cola" Click="AgregarALaCola">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="PlaylistPlay" Foreground="White" />
+                </MenuItem.Icon>
+            </MenuItem>
+            <Separator />
+            <MenuItem Header="Eliminar" Click="EliminarCanciones">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="Delete" Foreground="White" />
+                </MenuItem.Icon>
+            </MenuItem>
+        </ContextMenu>
+    </Page.Resources>
+</Page>

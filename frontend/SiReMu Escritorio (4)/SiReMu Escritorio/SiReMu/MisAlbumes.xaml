@@ -1,0 +1,38 @@
+﻿<Page x:Class="SiReMu.MisAlbumes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SiReMu"
+      mc:Ignorable="d" 
+      xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Background="{DynamicResource MaterialDesignPaper}"
+      TextElement.FontSize="20"
+      TextElement.FontWeight="Medium"
+      FontFamily="{materialDesign:MaterialDesignFont}"
+      d:DesignHeight="600" d:DesignWidth="1100"
+      Title="Mis albumes">
+
+    <Grid>
+        <Label Content="Mis albumes" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="48" Padding="0"/>
+        <ListView x:Name="lvAlbums" SelectionMode="Single" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" PreviewMouseLeftButtonUp="MostrarAlbum">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="4"></UniformGrid>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding Ilustracion}" Width="70" Height="70"/>
+                        <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                            <TextBlock Text="{Binding TituloPrincipal}" Width="200" Margin="10,0,0,0" FontSize="16"/>
+                            <TextBlock Text="{Binding TituloSecundario}" Width="200" Margin="10,10,0,0" Opacity="0.8"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

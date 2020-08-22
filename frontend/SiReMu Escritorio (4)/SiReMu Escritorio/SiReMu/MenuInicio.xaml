@@ -1,0 +1,191 @@
+﻿<Page x:Class="SiReMu.MenuInicio"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SiReMu"
+      mc:Ignorable="d" 
+      xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Background="{DynamicResource MaterialDesignPaper}"
+      TextElement.FontSize="20"
+      TextElement.FontWeight="Medium"
+      FontFamily="{materialDesign:MaterialDesignFont}" Height="1968" Width="1099">
+
+    <Grid>
+        <Label Content="Canciones Que te pueden Interesar" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" Padding="0"/>
+        <ScrollViewer HorizontalAlignment="Left" Margin="30,60,30,0" VerticalAlignment="Top"
+            materialDesign:ScrollViewerAssist.IsAutoHideEnabled="True" materialDesign:ScrollViewerAssist.CornerRectangleVisibility="Collapsed"
+                          ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+            <ListView x:Name="lvCanciones" SelectionMode="Single" PreviewMouseLeftButtonUp="ReproducirCancion" PreviewMouseRightButtonUp="VerMenuClickDerecho">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="2"></UniformGrid>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding Ilustracion}" Width="70" Height="70"/>
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding TituloPrincipal}" Width="200" Margin="10,0,0,0" FontSize="16"/>
+                                <TextBlock Text="{Binding TituloSecundario}" Width="200" Margin="10,10,0,0" Opacity="0.8"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollViewer>
+
+        <Label x:Name="cancionesPopularesLB" Content="Canciones populares" HorizontalAlignment="Left" Margin="30,300,0,0" VerticalAlignment="Top" Padding="0"/>
+        <ScrollViewer x:Name="cancionesPopularesSB" HorizontalAlignment="Left" Margin="30,330,0,0" VerticalAlignment="Top"
+            materialDesign:ScrollViewerAssist.IsAutoHideEnabled="True" materialDesign:ScrollViewerAssist.CornerRectangleVisibility="Collapsed"
+                          ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+            <ListView x:Name="lvcancionesPopulares" SelectionMode="Single" PreviewMouseLeftButtonUp="ReproducirCancionPopulares" PreviewMouseRightButtonUp="VerMenuClickDerechoPopulares">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="2" ></UniformGrid>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding Ilustracion}" Width="70" Height="70"/>
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding TituloPrincipal}" Width="200" Margin="10,0,0,0" FontSize="16"/>
+                                <TextBlock Text="{Binding TituloSecundario}" Width="200" Margin="10,10,0,0" Opacity="0.8"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollViewer>
+
+        <Label x:Name="albumsPopularesLB" Content="Albums mas recientes" HorizontalAlignment="Left" Margin="30,600,0,0" VerticalAlignment="Top" Padding="0"/>
+        <ScrollViewer x:Name="albumsPopularesSC" HorizontalAlignment="Left" Margin="30,630,0,30" VerticalAlignment="Top"
+            materialDesign:ScrollViewerAssist.IsAutoHideEnabled="True" materialDesign:ScrollViewerAssist.CornerRectangleVisibility="Collapsed"
+                          ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+            <ListView x:Name="lvalbumsPopulares" SelectionMode="Single" PreviewMouseLeftButtonUp="MostrarAlbum">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="2" ></UniformGrid>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding Ilustracion}" Width="70" Height="70"/>
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding TituloPrincipal}" Width="200" Margin="10,0,0,0" FontSize="16"/>
+                                <TextBlock Text="{Binding TituloSecundario}" Width="200" Margin="10,10,0,0" Opacity="0.8"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollViewer>
+
+        <Label x:Name="aleatoriasLB" Content="Canciones a descubrir" HorizontalAlignment="Left" Margin="30,900,0,0" VerticalAlignment="Top" Padding="0"/>
+        <ScrollViewer x:Name="aleatoriasSC" HorizontalAlignment="Left" Margin="30,930,0,30" VerticalAlignment="Top"
+            materialDesign:ScrollViewerAssist.IsAutoHideEnabled="True" materialDesign:ScrollViewerAssist.CornerRectangleVisibility="Collapsed"
+                          ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+            <ListView x:Name="lvaleatorias" SelectionMode="Single" PreviewMouseLeftButtonUp="ReproducirCancionAleatorio" PreviewMouseRightButtonUp="VerMenuClickDerechoAleatorias">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="2" ></UniformGrid>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding Ilustracion}" Width="70" Height="70"/>
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding TituloPrincipal}" Width="200" Margin="10,0,0,0" FontSize="16"/>
+                                <TextBlock Text="{Binding TituloSecundario}" Width="200" Margin="10,10,0,0" Opacity="0.8"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollViewer>
+
+        <Label x:Name="basadoLB" Content="Basado en tus ultimas visitas" HorizontalAlignment="Left" Margin="30,1200,0,0" VerticalAlignment="Top" Padding="0"/>
+        <ScrollViewer x:Name="basadoSC" HorizontalAlignment="Left" Margin="30,1230,0,30" VerticalAlignment="Top"
+            materialDesign:ScrollViewerAssist.IsAutoHideEnabled="True" materialDesign:ScrollViewerAssist.CornerRectangleVisibility="Collapsed"
+                          ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+            <ListView x:Name="lvbasado" SelectionMode="Single" PreviewMouseLeftButtonUp="ReproducirCancionBasado" PreviewMouseRightButtonUp="VerMenuClickDerechoBasado">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="2" ></UniformGrid>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding Ilustracion}" Width="70" Height="70"/>
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding TituloPrincipal}" Width="200" Margin="10,0,0,0" FontSize="16"/>
+                                <TextBlock Text="{Binding TituloSecundario}" Width="200" Margin="10,10,0,0" Opacity="0.8"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollViewer>
+
+        <Label x:Name="volverLB" Content="Volver a escuchar" HorizontalAlignment="Left" Margin="30,1500,0,0" VerticalAlignment="Top" Padding="0"/>
+        <ScrollViewer x:Name="volverSC" HorizontalAlignment="Left" Margin="30,1530,0,30" VerticalAlignment="Top"
+            materialDesign:ScrollViewerAssist.IsAutoHideEnabled="True" materialDesign:ScrollViewerAssist.CornerRectangleVisibility="Collapsed"
+                          ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+            <ListView x:Name="lvvolver" SelectionMode="Single" PreviewMouseLeftButtonUp="ReproducirCancionHistorial" PreviewMouseRightButtonUp="VerMenuClickDerechoHistorial">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Rows="2" ></UniformGrid>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding Ilustracion}" Width="70" Height="70"/>
+                            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                                <TextBlock Text="{Binding TituloPrincipal}" Width="200" Margin="10,0,0,0" FontSize="16"/>
+                                <TextBlock Text="{Binding TituloSecundario}" Width="200" Margin="10,10,0,0" Opacity="0.8"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollViewer>
+    </Grid>
+
+    <Page.Resources>
+        <ContextMenu x:Key="cmClickDerecho">
+            <MenuItem Header="Agregar a la cola" Click="AgregarALaCola">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="PlaylistPlay" Foreground="White" />
+                </MenuItem.Icon>
+            </MenuItem>
+            <Separator />
+            <MenuItem Header="Me gusta" Click="AgregarAMisMeGusta">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="HeartPlus" Foreground="White" />
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="Generar estación de radio" Click="GenerarEstacionRadio">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="Radio" Foreground="White" />
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="Descargar cancion" Click="DescargarCanciones">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="Download" Foreground="White" />
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="Agregar a playlist">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="PlaylistPlus" Foreground="White" />
+                </MenuItem.Icon>
+            </MenuItem>
+        </ContextMenu>
+    </Page.Resources>
+</Page>

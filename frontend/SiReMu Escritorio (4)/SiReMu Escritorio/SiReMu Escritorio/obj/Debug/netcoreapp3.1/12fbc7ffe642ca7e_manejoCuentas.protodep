@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/ManejoCuentas.cs \
+obj\Debug\netcoreapp3.1/ManejoCuentasGrpc.cs: Protos/manejoCuentas.proto

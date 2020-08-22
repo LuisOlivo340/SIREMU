@@ -1,0 +1,44 @@
+﻿<Window x:Class="SiReMu.Registrarse"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:SiReMu"
+        mc:Ignorable="d"
+        xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontSize="20"
+        TextElement.FontWeight="Medium"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        Title="Registrarse" Height="768" Width="1366" WindowStartupLocation="CenterScreen" WindowStyle="ThreeDBorderWindow" Opacity="0.9" 
+        ResizeMode="CanMinimize" WindowState="Maximized">
+    <Grid>
+        <Label Content="Registrarse en SiReMu" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontSize="48" Foreground="White"/>
+        <Label Content="Género:" HorizontalAlignment="Left" Margin="200,520,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbNombre" HorizontalAlignment="Left" Margin="200,250,0,0" MaxLength="40" VerticalAlignment="Top" Width="300" LostFocus="ValidarTexto" 
+                 materialDesign:HintAssist.Hint="Nombre" materialDesign:HintAssist.HintOpacity="0.8"/>
+        <TextBox x:Name="tbApellidos" HorizontalAlignment="Left" Margin="200,350,0,0" MaxLength="40" VerticalAlignment="Top" Width="300" LostFocus="ValidarTexto"  
+                 materialDesign:HintAssist.HintOpacity="0.8" materialDesign:HintAssist.Hint="Apellidos" />
+        <DatePicker x:Name="dpNacimiento" HorizontalAlignment="Left" Margin="200,450,0,0" VerticalAlignment="Top" Width="300" materialDesign:HintAssist.HintOpacity="0.8" 
+                    materialDesign:HintAssist.Hint="Fecha de nacimiento" DisplayDateEnd="{Binding Mode=OneWay, Source={x:Static sys:DateTime.Today}}" DisplayDateStart="01-01-1900" />
+        <TextBox x:Name="tbUsuario" HorizontalAlignment="Right" Margin="0,250,200,0" MaxLength="30" VerticalAlignment="Top" Width="300" LostFocus="ValidarTexto" 
+                 materialDesign:HintAssist.Hint="Nombre de Usuario" materialDesign:HintAssist.HintOpacity="0.8" 
+                 materialDesign:HintAssist.HelperText="Con el deberás inicar sesión y será visible para todos."/>
+        <TextBox x:Name="tbCorreo" HorizontalAlignment="Right" Margin="0,350,200,0" MaxLength="60" VerticalAlignment="Top" Width="300" LostFocus="ValidarCorreo"
+                 materialDesign:HintAssist.HintOpacity="0.8" materialDesign:HintAssist.Hint="Correo" />
+        <PasswordBox x:Name="passbContraseña" HorizontalAlignment="Right" Margin="0,450,200,0" VerticalAlignment="Top" Width="300" MaxLength="40" LostFocus="ValidarContraseña"
+                     materialDesign:HintAssist.HintOpacity="0.8" materialDesign:HintAssist.Hint="Contraseña" 
+                     materialDesign:HintAssist.HelperText="Mínimo 8 caracteres."/>
+        <PasswordBox x:Name="passbConfirmarContraseña" HorizontalAlignment="Right" Margin="0,550,200,0" VerticalAlignment="Top" Width="300" MaxLength="40" LostFocus="ValidarContraseña"
+                     materialDesign:HintAssist.HintOpacity="0.8" materialDesign:HintAssist.Hint="Confirmar contraseña" />
+        <Button Content="Registrarse" HorizontalAlignment="Center" Margin="300,0,0,50" VerticalAlignment="Bottom" 
+                Width="170" Height="40" Background="DarkViolet" Foreground="White" Click="RegistrarClick" FontSize="20"/>
+        <Button Content="Cancelar" HorizontalAlignment="Center" Margin="0,0,300,50" VerticalAlignment="Bottom" 
+                Width="170" Height="40" Background="DarkSlateBlue" Foreground="White" Click="CancelarClick" FontSize="20"/>
+        <RadioButton x:Name="rbHombre" GroupName="genero" Content="Hombre" HorizontalAlignment="Left" Margin="200,550,0,0" VerticalAlignment="Top" Checked="GuardarGenero"/>
+        <RadioButton x:Name="rbMujer" GroupName="genero" Content="Mujer" HorizontalAlignment="Left" Margin="310,550,0,0" VerticalAlignment="Top" Checked="GuardarGenero"/>
+        <RadioButton x:Name="rbOtro" GroupName="genero" Content="No binario" HorizontalAlignment="Left" Margin="400,550,0,0" VerticalAlignment="Top" Checked="GuardarGenero"/>
+    </Grid>
+</Window>

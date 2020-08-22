@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Recursos\logoIcono.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Recursos\cover.jpg" />
+    <None Remove="Recursos\logo.png" />
+    <None Remove="Recursos\logoOscuro.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="1.2.5" />
+    <PackageReference Include="MaterialDesignThemes" Version="3.1.2" />
+    <PackageReference Include="NAudio" Version="1.10.0" />
+    <PackageReference Include="TagLibSharp" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SiReMu Escritorio\Biblioteca gRPC.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Recursos\cover.jpg" />
+    <Resource Include="Recursos\logo.png" />
+    <Resource Include="Recursos\logoOscuro.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Propiedades.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Propiedades.settings</DependentUpon>
+    </Compile>
+    <Compile Update="VentanaBusqueda.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MisListasReproduccion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ColaDeReproduccion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Propiedades.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Propiedades.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="VentanaBusqueda.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MisListasReproduccion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ColaDeReproduccion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

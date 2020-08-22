@@ -1,0 +1,43 @@
+﻿<Page x:Class="SiReMu.RegistrarAlbum"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SiReMu"
+      mc:Ignorable="d" 
+      xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Background="{DynamicResource MaterialDesignPaper}"
+      TextElement.FontSize="20"
+      TextElement.FontWeight="Medium"
+      FontFamily="{materialDesign:MaterialDesignFont}"
+      d:DesignHeight="600" d:DesignWidth="1100"
+      Title="Registrar playlist">
+
+    <Grid>
+        <Label x:Name="lbTitulo" Content="Nuevo album" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="48" Foreground="White"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,150,0,0">
+            <StackPanel Orientation="Vertical">
+                <Image x:Name="imgIlustracion" Width="250" Height="250" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/Recursos/logoOscuro.png"/>
+                <Button Content="Cargar imagen" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" 
+                        Width="150" Height="35" Background="DarkSlateBlue" Foreground="White" Click="CargarImagen" FontSize="16"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="150,0,0,0">
+                <TextBox x:Name="tbNombre" HorizontalAlignment="Left" MaxLength="100" VerticalAlignment="Top" Width="550" LostFocus="ValidarTexto" Margin="0,60,0,0"
+                         materialDesign:HintAssist.Hint="Nombre" materialDesign:HintAssist.HintOpacity="0.8"/>
+                <TextBox x:Name="tbCompañia" HorizontalAlignment="Left" MaxLength="50" VerticalAlignment="Top" Width="550" LostFocus="ValidarTexto" Margin="0,60,0,0"
+                         materialDesign:HintAssist.Hint="Compañia discográfica" materialDesign:HintAssist.HintOpacity="0.8"/>
+                <DatePicker x:Name="dpLanzamiento" HorizontalAlignment="Left" Margin="0,60,0,0" VerticalAlignment="Top" Width="300" materialDesign:HintAssist.HintOpacity="0.8" 
+                    materialDesign:HintAssist.Hint="Fecha de lanzamiento" DisplayDateEnd="{Binding Mode=OneWay, Source={x:Static sys:DateTime.Today}}" DisplayDateStart="01-01-1900" 
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib" />
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,550,0,0" VerticalAlignment="Top">
+            <Button Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" 
+            Width="170" Height="40" Background="MediumBlue" Foreground="White" Click="Cancelar" FontSize="20"/>
+            <Button x:Name="btCrearAlbum" Content="Crear album" HorizontalAlignment="Center" Margin="250,0,0,0" VerticalAlignment="Top" 
+            Width="170" Height="40" Background="DarkViolet" Foreground="White" Click="CrearModificarAlbum" FontSize="20"/>
+        </StackPanel>
+    </Grid>
+</Page>

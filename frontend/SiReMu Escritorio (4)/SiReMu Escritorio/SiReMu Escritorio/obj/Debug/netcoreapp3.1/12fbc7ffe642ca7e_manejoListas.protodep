@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/ManejoListas.cs \
+obj\Debug\netcoreapp3.1/ManejoListasGrpc.cs: Protos/manejoListas.proto

@@ -1,0 +1,7 @@
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\bin\Debug\netcoreapp3.1\SiReMu Escritorio.deps.json
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\bin\Debug\netcoreapp3.1\SiReMu Escritorio.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\SiReMu Escritorio.AssemblyInfoInputs.cache
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\SiReMu Escritorio.AssemblyInfo.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\bin\Debug\netcoreapp3.1\SiReMu Escritorio.pdb
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\SiReMu Escritorio.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\SiReMu Escritorio.pdb

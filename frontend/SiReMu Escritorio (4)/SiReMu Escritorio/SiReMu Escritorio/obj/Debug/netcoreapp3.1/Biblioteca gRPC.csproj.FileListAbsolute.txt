@@ -1,0 +1,16 @@
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\bin\Debug\netcoreapp3.1\Biblioteca gRPC.deps.json
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\bin\Debug\netcoreapp3.1\Biblioteca gRPC.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\bin\Debug\netcoreapp3.1\Biblioteca gRPC.pdb
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\Biblioteca gRPC.AssemblyInfoInputs.cache
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\Biblioteca gRPC.AssemblyInfo.cs
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\Biblioteca gRPC.dll
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\Biblioteca gRPC.pdb
+C:\Users\IS Infinite Stratos\source\repos\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\Biblioteca gRPC.csprojAssemblyReference.cache
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu Escritorio\bin\Debug\netcoreapp3.1\Biblioteca gRPC.deps.json
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu Escritorio\bin\Debug\netcoreapp3.1\Biblioteca gRPC.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu Escritorio\bin\Debug\netcoreapp3.1\Biblioteca gRPC.pdb
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\Biblioteca gRPC.AssemblyInfoInputs.cache
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\Biblioteca gRPC.AssemblyInfo.cs
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\Biblioteca gRPC.dll
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\Biblioteca gRPC.pdb
+C:\Users\rockm\Desktop\nwPRJCT\src 2.0\SiReMu Escritorio (4)\SiReMu Escritorio\SiReMu Escritorio\obj\Debug\netcoreapp3.1\Biblioteca gRPC.csprojAssemblyReference.cache
