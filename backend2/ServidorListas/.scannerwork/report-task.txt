@@ -1,0 +1,6 @@
+projectKey=com.siremu:ServidorListas
+serverUrl=http://localhost:9000
+serverVersion=8.4.1.35646
+dashboardUrl=http://localhost:9000/dashboard?id=com.siremu%3AServidorListas
+ceTaskId=AXQFhg5qKmOUrEV5KQje
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXQFhg5qKmOUrEV5KQje

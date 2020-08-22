@@ -1,0 +1,25 @@
+E, [30-07-2020#21168] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [30-07-2020 22:48:35#14180] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [30-07-2020 22:49:47#14180] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [30-07-2020 22:55:49#4388] ERROR -- : #<Errno::ENOENT: No such file or directory @ rb_sysopen - IlustracionesListas/1 - Primera lista del C#.jpg>
+E, [30-07-2020 22:59:39#7940] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [30-07-2020 23:00:05#7940] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [30-07-2020 23:01:49#20624] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [30-07-2020 23:04:52#11516] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [30-07-2020 23:05:16#11516] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [30-07-2020 23:06:08#11516] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [30-07-2020 23:06:53#8348] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [30-07-2020 23:07:38#8348] ERROR -- : #<Errno::ENOENT: No such file or directory @ rb_sysopen - IlustracionesListas/1 - Primera lista del C#.jpg>
+E, [30-07-2020 23:14:12#2652] ERROR -- : #<Errno::ENOENT: No such file or directory @ rb_sysopen - IlustracionesListas/1 - Primera lista del C#.jpg>
+E, [30-07-2020 23:16:10#2652] ERROR -- : #<Errno::ENOENT: No such file or directory @ rb_sysopen - IlustracionesListas/1 - Primera lista del C#.jpg>
+E, [30-07-2020 23:16:50#20492] ERROR -- : #<Errno::ENOENT: No such file or directory @ rb_sysopen - IlustracionesListas/1 - Primera lista del C#.jpg>
+E, [30-07-2020 23:17:45#20492] ERROR -- : #<Errno::ENOENT: No such file or directory @ rb_sysopen - cover.jpg>
+E, [31-07-2020 20:06:22#14276] ERROR -- : #<GRPC::BadStatus: 6:El usuario ya tiene una lista registrada con ese nombre.>
+E, [31-07-2020 20:09:25#14276] ERROR -- : #<GRPC::BadStatus: 6:El usuario ya tiene una lista registrada con ese nombre.>
+E, [31-07-2020 20:10:34#14276] ERROR -- : #<GRPC::BadStatus: 6:El usuario ya tiene una lista registrada con ese nombre.>
+E, [31-07-2020 20:15:58#14276] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [31-07-2020 20:18:13#14692] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [31-07-2020 20:25:01#20068] ERROR -- : #<TinyTds::Error: SQL Server service has been paused. No new connections will be allowed. To resume the service, use SQL Computer Manager or the Services application in Control Panel.>
+E, [11-08-2020 20:04:47#2740] ERROR -- : #<ActiveRecord::StatementInvalid: TinyTds::Error: There is insufficient system memory in resource pool 'default' to run this query.>
+E, [12-08-2020 19:47:52#12036] ERROR -- : #<ActiveRecord::StatementInvalid: TinyTds::Error: There is insufficient system memory in resource pool 'default' to run this query.>
+E, [19-08-2020 12:03:50#20036] ERROR -- : #<TinyTds::Error: Unable to connect: Adaptive Server is unavailable or does not exist (host.docker.internal)>

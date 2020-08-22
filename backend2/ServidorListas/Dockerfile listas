@@ -1,0 +1,11 @@
+FROM ubuntu:20.04
+RUN apt-get update
+RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
+RUN apt -y install git
+RUN apt-get -y  install ruby-full
+RUN gem install bundler
+RUN bundler install
+COPY ./backend /usr/home/
+
+WORKDIR /usr/home/ServidorCuentas/
+#RUN ruby servidor.rb
