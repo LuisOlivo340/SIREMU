@@ -1,0 +1,6 @@
+projectKey=com.siremu:ServidorCanciones
+serverUrl=http://localhost:9000
+serverVersion=8.4.1.35646
+dashboardUrl=http://localhost:9000/dashboard?id=com.siremu%3AServidorCanciones
+ceTaskId=AXQJ9l22_cwXoUuU7W4d
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXQJ9l22_cwXoUuU7W4d

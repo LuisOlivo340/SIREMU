@@ -1,0 +1,59 @@
+ago 16, 2020 11:50:34 PM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 16, 2020 11:51:53 PM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 17, 2020 12:11:52 AM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 17, 2020 11:54:46 AM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 17, 2020 3:00:18 PM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 18, 2020 1:53:29 PM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 18, 2020 3:15:12 PM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 18, 2020 5:20:54 PM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 19, 2020 11:40:27 AM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 19, 2020 11:41:34 AM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 19, 2020 11:49:45 AM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 19, 2020 11:52:18 AM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 19, 2020 11:52:28 AM com.servidorcanciones.ManejoCancionesImpl buscarCanciones
+GRAVE: null
+java.nio.file.NoSuchFileException: Albums\1\Publicos\Care - Single\Care - Single.jpg
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at com.servidorcanciones.modelos.ConversorObjetosGRPC.convertirAlbum(ConversorObjetosGRPC.java:26)
+	at com.servidorcanciones.modelos.ConversorObjetosGRPC.convertirCancion(ConversorObjetosGRPC.java:44)
+	at com.servidorcanciones.ManejoCancionesImpl.buscarCanciones(ManejoCancionesImpl.java:575)
+	at mx.uv.manejoCanciones.ManejoCancionesGrpc$MethodHandlers.invoke(ManejoCancionesGrpc.java:1292)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:820)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+ago 19, 2020 11:53:26 AM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 19, 2020 11:55:10 AM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 19, 2020 11:55:59 AM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 19, 2020 12:03:04 PM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 19, 2020 2:30:36 PM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
+ago 19, 2020 4:04:30 PM com.servidorcanciones.ManejoCancionesImpl <clinit>
+INFORMACIÓN: Primer log
