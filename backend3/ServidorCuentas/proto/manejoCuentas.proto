@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package mnjCuentas;
+
+service ManejoCuentas {
+  rpc IniciarSesion(Usuario) returns (RespuestaCuentas);
+  rpc RegistrarUsuario(Usuario) returns (RespuestaCuentas);
+  rpc ModificarUsuario(Usuario) returns (RespuestaCuentas);
+  rpc CambiarContrasena(CambioContrasenas) returns (RespuestaCuentas);
+}
+
+message RespuestaCuentas {
+  bool respuesta = 1;
+  Usuario cuenta = 2;
+}
+
+message CambioContrasenas {
+  int32 idUsuario = 1;
+  string contrasenaAnterior = 2;
+  string nuevaContrasena = 3;
+}
+
+message Usuario {
+  string nombre = 1;
+  string contrasenia = 2;
+  string correo = 3;
+  bool esCreadorContenido = 4;
+  string fechaNacimiento = 5;
+  string genero = 6;
+  string usuario = 7;
+  string apellido = 8;
+  int32 id = 9;
+}
